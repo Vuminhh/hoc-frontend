@@ -1,0 +1,105 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-color: cornflowerblue;
+}
+.box__login {
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  position: absolute;
+  top: 10vh;
+  left: 35vw;
+  border-radius: 20px;
+}
+.box__login__text1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 8%;
+  font-weight: bold;
+}
+.box__login__box1 {
+  width: 350px;
+  height: 50px;
+  position: absolute;
+  left: 25px;
+  border-radius: 25px;
+}
+.box__login__box2 {
+  background-color: rgba(169, 169, 169, 0.144);
+  top: 25%;
+}
+.box__login__box3 {
+  background-color: rgba(169, 169, 169, 0.144);
+  top: 45%;
+}
+.box__login__box4 {
+  background-color: rgba(22, 19, 192, 0.692);
+  top: 65%;
+}
+.box__login__box1234__text1 {
+  font-size: 20px;
+  margin-left: 4.5%;
+  margin-top: 4%;
+}
+.box__login__box1234__text2 {
+  color: darkgray;
+  text-align: left;
+}
+.box__login__box1234__text3 {
+  color: white;
+  text-align: center;
+}
+.box__login__icon {
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.box__login__icon__facebook {
+  background-color: blue;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.box__login__icon__facebook i {
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(100%, 50%);
+}
+.box__login__icon__google{
+    background-color: red;
+    position: absolute;
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box__login__icon__google i{
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+}
+.box__login__icon__twitter {
+    background-color:aqua;
+    position: absolute;
+    width: 40px; height: 40px;
+    right: 0%;
+    border-radius: 50%;
+    /* transform: translateX(100px); */
+}
+.box__login__icon__twitter i{
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+}
