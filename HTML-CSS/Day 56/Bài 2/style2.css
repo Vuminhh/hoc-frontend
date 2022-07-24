@@ -18,9 +18,7 @@ body {
 }
 .option {
   display: inline-flex;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0%;
+  /* flex: 1; */
   align-items: stretch;
   justify-content: flex-start;
 }
@@ -28,11 +26,75 @@ body {
   background-color: #fff;
   height: 2.125rem;
   line-height: 2.125rem;
-  display: flex;
-  flex-basis: 5.625rem;
+  display: inline-flex;
   align-items: center;
   text-transform: capitalize;
   padding: 0 0.9375rem;
   cursor: pointer;
-  user-select: none;
+  /* user-select: none;
+  white-space: nowrap;
+  box-sizing: border-box; */
 }
+.option__1:active {
+    background-color: #ee4d2d;
+    color: #fff;
+}
+.option__2 {
+    background-color: #fff;
+    min-width: 12.5rem;
+    height: 2.125rem;
+    line-height: 2.125rem;
+    display: inline-flex;
+    flex: 1;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 0 0.9375rem;
+    cursor: pointer;
+}
+.option__3{
+    display: flex;
+    flex: 1;
+    justify-content: right;
+}
+.control{
+    display: flex;
+    align-items: center;
+}
+.control__status{
+    display: block;
+}
+.control__currentpage{
+    color: red;
+}
+.button__prev{
+    background-color: #f9f9f9;
+    color: rgba(0,0,0,.26);
+    border-color: rgba(0,0,0,.09);
+}
+.button__next{
+    background-color: #f9f9f9;
+    color: rgba(0,0,0,.26);
+    border-color: rgba(0,0,0,.09);
+}
+/* .option__2 i{
+    position: absolute;
+    z-index: 2;
+} */
+/* .selection{
+    min-width: 12.5rem;
+    margin-left: 0.625rem;
+    display: inline-flex;
+}
+.selection__1{
+    height: 2.125rem;
+    line-height: 2.125rem;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+}
+.selection__1__1{
+    display: inline-flex;
+    flex-direction: row;
+} */
