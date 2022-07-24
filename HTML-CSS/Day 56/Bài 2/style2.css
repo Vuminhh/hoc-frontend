@@ -1,0 +1,38 @@
+body {
+  background-color: #e8e8e8;
+  font-size: 0.875rem;
+}
+.tool {
+  background-color: rgba(0, 0, 0, 0.03);
+  font-weight: 400;
+  padding: 0.8125rem 1.25rem;
+  margin: 1.25rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tool__label {
+  color: #555;
+  font-weight: 400;
+  margin: 0 0.3125rem 0 0;
+}
+.option {
+  display: inline-flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.option__1 {
+  background-color: #fff;
+  height: 2.125rem;
+  line-height: 2.125rem;
+  display: flex;
+  flex-basis: 5.625rem;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 0 0.9375rem;
+  cursor: pointer;
+  user-select: none;
+}
